@@ -26,7 +26,7 @@ const Photo = () => {
         <img data-aos="zoom-out-left" data-aos-duration="7000" className='lg:h-[300px] lg:w-[570px] lg:mt-32 md:h-[280px] md:w-[600px] md:object-cover md:ml-[85px] sm:m-5 sm:object-cover m-4 object-cover' src={img} alt="" />
     </div>
     <div className='lg:flex lg:flex-row lg:justify-around lg:pt-16 md:flex md:justify-around sm:flex sm:flex-col flex-col '>
-        <img  data-aos="zoom-out-right" data-aos-duration="1000" className='lg:h-[300px] lg:mt-[-40px] md:h-[280px] md:w-[600px] md:mt-[-1px] sm:object-cover sm:m-20 object-cover h-40 m-6' src={img5} alt="" />
+        <img  data-aos="zoom-out-right" data-aos-duration="1000" className='lg:h-[300px] lg:mt-[-40px] md:h-[280px] md:w-[600px] md:mt-[-1px] sm:w-[200px] sm:object-cover sm:m-20 w-[280px] object-cover h-40 m-6' src={img5} alt="" />
         <img data-aos="zoom-out-left" data-aos-duration="7000" className='lg:h-[210px] lg:ml-11 md:h-[270px] md:mt-[-35px] sm:object-cover sm:m-20 object-cover h-28 m-6' src={img6} alt="" />
     </div>
 
