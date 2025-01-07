@@ -57,4 +57,11 @@
       background-color: #015761;
     }
   }
-  
+  @media screen and (max-width: 320px) {
+    .sidebar {
+      width: 270px;
+      height: 450px;
+      background-color: #015761;
+    }
+  }
+ 
