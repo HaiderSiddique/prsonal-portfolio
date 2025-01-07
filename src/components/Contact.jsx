@@ -15,7 +15,7 @@ const Contact = () => {
     <hr />
     <div className='lg:h-full lg:w-[100%] md:h-full md:w-[100%] lg:flex lg:flex-row md:flex sm:flex sm:flex-col sm:h-full sm:w-full bg-[#015761] sm:justify-center w-full h-full  justify-center pt-20 overflow-y-hidden'>
         <div className='lg:w-[50%] lg:h-full md:w-[50%] md:h-full sm:w-full sm:h-full w-full h-full'>
-            <img  data-aos="flip-left"  data-aos-duration="2000" className='lg:h-full lg:w-full md:object-cover sm:object-cover object-cover lg:object-cover md:h-[600px] md:w-[2000px] sm:h-full sm:w-[400px] h-full w-[250px] sm:m-5 m-9 lg:ml-9  md:ml-48 ' src={img11} alt="" />
+            <img  data-aos="flip-left"  data-aos-duration="2000" className='lg:h-full lg:w-full md:object-cover sm:object-cover object-cover lg:object-cover md:h-[600px] md:w-[2000px] sm:h-full sm:w-[400px] h-full w-[350px] sm:m-5 m-9 lg:ml-9  md:ml-48 ' src={img11} alt="" />
         </div>
         <div className='w-[50%] h-[100vh] pl-12 bottom-0 lg:pt-10 md:ml-32  md:pt-32 sm:pt-24 pt-16'>
             <div>
