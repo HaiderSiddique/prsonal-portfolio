@@ -19,15 +19,15 @@ const Photo = () => {
         <h1 className='font-bold text-7xl text-[#d9cc51]'>Our work</h1>
     </div>
     <div className='pt-24 flex justify-around'>
-        <img data-aos="fade-up"data-aos-duration="1000" className='lg:h-[400px] lg:w-[700px] md:h-[300px] md:w-[600px] md:object-cover sm:h-[200px] sm:w-[90px]  object-cover ' src={img3} alt="" />
+        <img data-aos="fade-up"data-aos-duration="1000" className='lg:h-[400px] lg:w-[700px] md:h-full md:w-[700px] md:object-cover sm:h-[200px] sm:w-[90px]  object-cover ' src={img3} alt="" />
     </div>
     <div className=' lg:flex lg:justify-around lg:flex-row lg:pt-16 md:flex md:justify-around sm:flex sm:justify-center sm:flex-col flex-col flex justify-center '>
-        <img  data-aos="zoom-out-right" data-aos-duration="1000" className='lg:h-[230px] lg:mt-44 lg:w-[440px] lg:ml-20 md:ml-[85px] md:h-[280px] md:w-[600px] md:object-cover sm:h-[170px] sm:m-5 sm:object-cover m-4 object-cover' src={img4} alt="" />
-        <img data-aos="zoom-out-left" data-aos-duration="7000" className='lg:h-[300px] lg:w-[570px] lg:mt-32 md:h-[280px] md:w-[600px] md:object-cover md:ml-[85px] sm:m-5 sm:object-cover m-4 object-cover' src={img} alt="" />
+        <img  data-aos="zoom-out-right" data-aos-duration="1000" className='lg:h-[230px] lg:mt-44 lg:w-[440px] lg:ml-20 md:ml-[140px] md:h-[280px] md:w-[600px] md:object-cover sm:h-[170px] sm:m-5 sm:object-cover m-4 object-cover' src={img4} alt="" />
+        <img data-aos="zoom-out-left" data-aos-duration="7000" className='lg:h-[300px] lg:w-[570px] lg:mt-32 md:h-[280px] md:w-[600px] md:object-cover md:ml-[140px] sm:m-5 sm:object-cover m-4 object-cover' src={img} alt="" />
     </div>
     <div className='lg:flex lg:flex-row lg:justify-around lg:pt-16 md:flex md:justify-around sm:flex sm:flex-col flex-col '>
-        <img  data-aos="zoom-out-right" data-aos-duration="1000" className='lg:h-[300px] lg:mt-[-40px] md:h-[280px] md:w-[600px] md:mt-[-1px] sm:w-[200px] sm:object-cover sm:m-20 w-[280px] object-cover h-40 m-6' src={img5} alt="" />
-        <img data-aos="zoom-out-left" data-aos-duration="7000" className='lg:h-[210px] lg:ml-11 md:h-[270px] md:mt-[-35px] sm:object-cover sm:m-20 object-cover h-28 m-6' src={img6} alt="" />
+        <img  data-aos="zoom-out-right" data-aos-duration="1000" className='lg:h-[300px] lg:mt-[-40px] md:h-[280px] md:w-[600px] md:mt-[110px] md:ml-[140px] sm:w-[200px] sm:object-cover sm:m-20 w-[380px] h-full object-cover m-6' src={img5} alt="" />
+        <img data-aos="zoom-out-left" data-aos-duration="7000" className='lg:h-[210px] lg:ml-11 md:h-[270px] md:mt-[-35px] md:ml-[140px] md:w-[600px] sm:object-cover sm:m-20 w-[380px] h-full object-cover m-6' src={img6} alt="" />
     </div>
 
 </section>
