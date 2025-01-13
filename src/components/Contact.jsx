@@ -6,7 +6,7 @@ import gtimg from '../components/github.svg'
 import AOS from "aos";
 import { useEffect } from 'react';
 import "aos/dist/aos.css";
-import img11 from '../components/haider.jpg'
+import img11 from '../components/homepic.jpeg'
 const Contact = () => {
      useEffect(() => {
             AOS.init();

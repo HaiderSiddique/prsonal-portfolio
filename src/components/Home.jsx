@@ -2,7 +2,7 @@ import React from 'react'
 import AOS from "aos";
 import { useEffect } from 'react';
 import "aos/dist/aos.css";
-import bgimg from '../components/haider10.jpg'
+import bgimg from '../components/contactpic.jpeg'
 
 
 const Home = () => {
@@ -30,7 +30,7 @@ const Home = () => {
     </div>
     <div  className=' lg:h-full lg:w-[50%] sm:w-full  w-full'>
         <div class="haider">
-          <div><img src={bgimg} alt="" /></div>
+          <div><img className='h-full w-[700px] object-cover' src={bgimg} alt="" /></div>
         </div>
     </div>
     <hr />
