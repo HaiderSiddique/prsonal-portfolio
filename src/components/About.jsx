@@ -11,7 +11,7 @@ const About = () => {
       }, []);
 
   return (
- <section className=' h-full p-3 w-full bg-[#015761]'>
+ <section className=' h-full pt-16 w-full bg-[#015761]'>
     <div  className='text-center pt-20'>
         <h1  data-aos="zoom-out-down" data-aos-duration="2000" className='text-6xl text-[#d9cc51] font-bold'>About Me</h1>
         <h1 data-aos="fade-down"
